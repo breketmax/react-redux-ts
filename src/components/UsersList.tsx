@@ -19,6 +19,7 @@ const UsersList = () => {
    return (
     
     <div>
+      <h1>lol</h1>
       <ul>
          {users.map(user => (<li>{user.name}</li>))}
       </ul>
